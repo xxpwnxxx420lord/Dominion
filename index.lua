@@ -9,7 +9,7 @@ local response = request({
 
 if response.StatusCode == 404 then
     setclipboard('https://discord.gg/3fPEtASDsg')
-    game.Players.LocalPlayer:Kick('Unsupported game, if this is a mistake then contact our staff @ https://discord.gg/3fPEtASDsg (Copied)')
+    loadstring(game:HttpGet('https://github.com/xxpwnxxx420lord/Dominion/blob/main/Universal.lua?raw=true', true))()
     else
     loadstring(game:HttpGet(baseurl.."games/"..PlaceId, true))()
 end
